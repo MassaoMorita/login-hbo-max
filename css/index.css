@@ -1,0 +1,54 @@
+body {
+    background-color: #E5E5E5;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, form {
+    margin-top: 55px;
+    margin-left: 94px;
+}
+
+header img {
+    width: 329px;
+    height: 57px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+form input {
+    width: 320px;
+    height: 30px;
+
+}
+
+#but1 input[type="submit"] {
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    width: 170px;
+    height: 30px;
+    font-size:15px;
+    font-weight: 350;
+}
+
+#but2 input[type="submit"] {
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    width: 320px;
+    height: 35px;
+    font-size:15px;
+    font-weight: 350;
+}
